@@ -1,0 +1,34 @@
+table {
+    background-color: #e9e9e9;
+    border: solid 2px #000000;
+    width: 300px;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 28px;
+    padding: 10px;
+    border: solid 2px #000000;
+    width: 100px;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    border: solid 2px #000000;
+    font-size: 24px;
+    width: 100px;
+    text-align: center;
+}
+
+.TimeColumn {
+    background-color: #d0d0d0;
+}
+
+.topsection_selector tr:first-of-type {
+    background-color: #465fb1 !important;
+}
+
+.bottomsection_selector tr:last-of-type {
+    background-color: #d0d0d0;
+}
