@@ -33,6 +33,7 @@ body {
     border-style: solid;
     border-width: medium;
     border-color: rgba(0, 0, 0, 0.2);
+    z-index: 100;
 }
 
 .topsectionlogo {
@@ -75,36 +76,55 @@ body {
 }
 
 .img1contenior {
-    
+
     /*background-color: #ffffff;*/
     height: 300px;
-    width: 450px; 
+    width: 450px;
 }
+
 .img2 {
--webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
+
 .img2contenior {
-border: 48px solid #000;
-border-image: url(../5.4_images-assignment/tic-tac-toe.png) 49 round;
-width: 500px;
-height: 230px;
-background-color: #ffffff;
+    border: 48px solid #000;
+    border-image: url(../5.4_images-assignment/tic-tac-toe.png) 49 round;
+    width: 500px;
+    height: 230px;
+    background-color: #ffffff;
 }
+
 .img3 {
-  -webkit-filter: hue-rotate(90deg);
-  filter: hue-rotate(90deg);
+    -webkit-filter: hue-rotate(90deg);
+    filter: hue-rotate(90deg);
     -webkit-filter: drop-shadow(10px 10px 10px #000000);
-  filter: drop-shadow(10px 10px 10px #000000);
-  
+    filter: drop-shadow(10px 10px 10px #000000);
+
 }
+
 .img3contenior {
-border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
     background-color: #f0e5e5;
     width: 500px;
 
 }
+
+.img4 {}
+
 .img4contenior {
-
-
+    filter: drop-shadow(0px 10px 10px #000000);
+    background-image: linear-gradient(135deg, #8b8bff, #ffffff);
+    background-color: #8b8bff;
+    width: 560px;
 }
+
+.img5 {border-radius: 40px 0px 40px 00px / 40px 0px 40px 0px;
+    background-color: #f0e5e5;}
+
+.img5contenior {}
+
+
+.img6 {}
+
+.img6contenior {}
