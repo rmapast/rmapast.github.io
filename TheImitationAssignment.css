@@ -1,0 +1,110 @@
+body {
+    background-color: #555555;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: serif;
+    font-size: 35px;
+    color: #2b2b2b;
+}
+
+.informationCard {
+    width: 1250px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    background-color: #555555;
+    float: left;
+    background-image: url('../blackFone3.png');
+    border-style: solid;
+    border-width: medium;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #dddddd;
+
+}
+
+.topsection {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100px;
+    background-color: #687062;
+    width: 100%;
+    background-image: url('../greenFone.png');
+    border-style: solid;
+    border-width: medium;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.topsectionlogo {
+    float: left;
+}
+
+.TextInTopsection {
+    float: left;
+    margin-left: 30px;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+
+.Navigationlink {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-size: 48px;
+}
+
+.SideVindow {
+    margin-right: 30px;
+    margin-top: 150px;
+    height: 300px;
+    width: 150px;
+    background-image: url('../redFone.png');
+    float: right;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.img1 {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+    border-radius: 225px 225px 225px 225px / 150px 150px 150px 150px;
+}
+
+.img1contenior {
+    
+    /*background-color: #ffffff;*/
+    height: 300px;
+    width: 450px; 
+}
+.img2 {
+-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.img2contenior {
+border: 48px solid #000;
+border-image: url(../5.4_images-assignment/tic-tac-toe.png) 49 round;
+width: 500px;
+height: 230px;
+background-color: #ffffff;
+}
+.img3 {
+  -webkit-filter: hue-rotate(90deg);
+  filter: hue-rotate(90deg);
+    -webkit-filter: drop-shadow(10px 10px 10px #000000);
+  filter: drop-shadow(10px 10px 10px #000000);
+  
+}
+.img3contenior {
+border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+    background-color: #f0e5e5;
+    width: 500px;
+
+}
+.img4contenior {
+
+
+}
