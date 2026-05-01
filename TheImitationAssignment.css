@@ -77,13 +77,14 @@ body {
     border-width: 5px;
     border-color: #000000;
     border-style: solid;
+    margin: 10,10,10,10;
 }
 
 .img1contenior {
 
     background-color: #ffffff;
-    height: 300px;
-    width: 450px;
+    height: 340px;
+    width: 490px;
     border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
 }
 
