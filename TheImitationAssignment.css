@@ -74,10 +74,10 @@ body {
     -webkit-filter: sepia(100%);
     filter: sepia(60%);
     border-radius: 225px 225px 225px 225px / 150px 150px 150px 150px;
-    border-width: 5px;
+    border-width: 2px;
     border-color: #000000;
     border-style: solid;
-    margin: 10,10,10,10;
+    margin: 20px;
 }
 
 .img1contenior {
@@ -110,12 +110,10 @@ body {
 
 .img3contenior {
     border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
-    background-color: #f0e5e5;
+    background-color: #ffffff;
     width: 500px;
 
 }
-
-.img4 {}
 
 .img4contenior {
     filter: drop-shadow(0px 10px 10px #000000);
@@ -123,7 +121,6 @@ body {
     background-image: linear-gradient(135deg, #8b8bff, #ffffff);
     background-color: #8b8bff;
     width: 560px;
-    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
 }
 
 .img5 {
@@ -133,24 +130,28 @@ body {
     filter: invert();
 }
 
-.img5contenior {}
-
-.img6 {
-
-
-}
-
-.img6text {
-    color: #000000;
-    font-size: 200;
-}
-
 .img6contenior {
-
-    text-align: center;
+    position: relative;
     width: 400px;
     height: 352px;
--webkit-filter: blur(5px);
+}
+
+.img6contenior>div {
+    position: absolute;
+    top: 110pt;
+    left: 0;
+    width: 400px;
+    color: #FFFFFF;
+    font-size: 51px;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+}
+
+.img6contenior>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-filter: blur(5px);
     filter: blur(5px);
-    background-image: url(5.4_images-assignment/theater_stage.jpg);
 }
