@@ -19,6 +19,7 @@ body {
     border-width: medium;
     border-color: rgba(0, 0, 0, 0.2);
     color: #dddddd;
+    z-index: 10;
 
 }
 
@@ -71,15 +72,19 @@ body {
 
 .img1 {
     -webkit-filter: sepia(100%);
-    filter: sepia(100%);
+    filter: sepia(60%);
     border-radius: 225px 225px 225px 225px / 150px 150px 150px 150px;
+    border-width: 5px;
+    border-color: #000000;
+    border-style: solid;
 }
 
 .img1contenior {
 
-    /*background-color: #ffffff;*/
+    background-color: #ffffff;
     height: 300px;
     width: 450px;
+    border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
 }
 
 .img2 {
@@ -93,13 +98,12 @@ body {
     width: 500px;
     height: 230px;
     background-color: #ffffff;
+
 }
 
 .img3 {
-    -webkit-filter: hue-rotate(90deg);
-    filter: hue-rotate(90deg);
-    -webkit-filter: drop-shadow(10px 10px 10px #000000);
-    filter: drop-shadow(10px 10px 10px #000000);
+    -webkit-filter: hue-rotate(90deg) drop-shadow(10px 10px 10px #000000);
+    filter: drop-shadow(10px 10px 10px #000000) hue-rotate(90deg);
 
 }
 
@@ -114,17 +118,37 @@ body {
 
 .img4contenior {
     filter: drop-shadow(0px 10px 10px #000000);
+    -webkit-filter: drop-shadow(0px 10px 10px #000000);
     background-image: linear-gradient(135deg, #8b8bff, #ffffff);
     background-color: #8b8bff;
     width: 560px;
+    border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
 }
 
-.img5 {border-radius: 40px 0px 40px 00px / 40px 0px 40px 0px;
-    background-color: #f0e5e5;}
+.img5 {
+    border-radius: 80px 0px 80px 00px / 80px 0px 80px 0px;
+    background-color: #f0e5e5;
+    -webkit-filter: invert();
+    filter: invert();
+}
 
 .img5contenior {}
 
+.img6 {
+-webkit-filter: blur(5px);
+    filter: blur(5px);
 
-.img6 {}
+}
 
-.img6contenior {}
+.img6text {
+    color: #000000;
+    font-size: 200;
+}
+
+.img6contenior {
+
+    text-align: center;
+    width: 400px;
+    height: 352px;
+
+}
