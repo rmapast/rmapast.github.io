@@ -57,14 +57,14 @@ body {
 .SideVindow {
     margin-right: 30px;
     margin-top: 150px;
-    height: 300px;
-    width: 150px;
+    height: 350px;
+    width: 250px;
     background-image: url('../redFone.png');
     float: right;
     border-style: solid;
     border-width: medium;
     border-color: rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    padding: 5px;
     font-family: monospace;
     font-weight: bold;
     font-size: 28px;
@@ -135,8 +135,7 @@ body {
 .img5contenior {}
 
 .img6 {
--webkit-filter: blur(5px);
-    filter: blur(5px);
+
 
 }
 
@@ -150,5 +149,7 @@ body {
     text-align: center;
     width: 400px;
     height: 352px;
-
+-webkit-filter: blur(5px);
+    filter: blur(5px);
+    background-image: url(5.4_images-assignment/theater_stage.jpg);
 }
