@@ -1,0 +1,161 @@
+@keyframes animation1 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(3600deg);
+    }
+  }
+
+body {
+    background-color: #555555;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: serif;
+    font-size: 35px;
+    color: #2b2b2b;
+}
+
+.informationCard {
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    background-color: #555555;
+    float: left;
+    background-image: url('../blackFone3.png');
+    border-style: solid;
+    border-width: medium;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #dddddd;
+    z-index: 10;
+
+}
+
+.topsection {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100px;
+    background-color: #687062;
+    width: 100%;
+    background-image: url('../greenFone.png');
+    border-style: solid;
+    border-width: medium;
+    border-color: rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+
+.topsectionlogo {
+    float: left;
+}
+
+.TextInTopsection {
+    float: left;
+    margin-left: 30px;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+
+.Navigationlink {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-size: 48px;
+}
+
+.SideVindow {
+    margin-right: 30px;
+    margin-top: 150px;
+    height: 200px;
+    width: 150px;
+    background-image: url('../redFone.png');
+    float: right;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 28px;
+    animation-name: animation1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+
+.SideVindow:hover {
+    transform: skewX(-360deg);
+}
+
+.reviewcardcontener {
+    display: grid;
+    grid-auto-flow: dense;
+}
+
+.reviewcard {
+    background-image: url('../geryFone3.png');
+    transition: all 1s;
+    padding: 20px;
+    /*width: 800px;*/
+    float: left;
+}
+
+.reviewcard:hover {
+    background-image: url('../lightblueFone.png');
+}
+
+.reviewcardimege { 
+    height: 200px;
+        transition: all 10s;
+}
+.imegeflightdirection1 {transition: all 10s; height: 200px;}
+.imegeflightdirection2 {transition: all 10s; height: 200px;}
+.imegeflightdirection3 {transition: all 10s; height: 200px;}
+.imegeflightdirection4 {transition: all 10s; height: 200px;}
+.imegeflightdirection5 {transition: all 10s; height: 200px;}
+.imegeflightdirection6 {transition: all 10s; height: 200px;}
+.imegeflightdirection7 {transition: all 10s; height: 200px;}
+.imegeflightdirection8 {transition: all 10s; height: 200px;}
+.imegeflightdirection9 {transition: all 10s; height: 200px;}
+
+.cardtext {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    position: absolute;
+}
+
+.reviewcard:hover .cardtext{
+  visibility: visible;
+  opacity: 1;
+  transform:translateY(-100px)
+}
+
+.reviewcard:hover .imegeflightdirection1 {
+transform:translateY(-10000px)
+}
+.reviewcard:hover .imegeflightdirection2 {
+transform:translateX(-10000px) translateY(-10000px)
+}
+.reviewcard:hover .imegeflightdirection3 {
+transform:translateY(-10000px)
+}
+.reviewcard:hover .imegeflightdirection4 {
+transform:translateX(10000px) translateY(-10000px)
+}
+.reviewcard:hover .imegeflightdirection5 {
+transform:translateX(10000px) translateY(-10000px)
+}
+.reviewcard:hover .imegeflightdirection6 {
+transform:translateX(-10000px) translateY(-10000px)
+}
+.reviewcard:hover .imegeflightdirection7 {
+transform:translateY(-10000px)
+}
+.reviewcard:hover .imegeflightdirection8 {
+transform:translateX(-10000px)translateY(10000px)
+}
+.reviewcard:hover .imegeflightdirection9 {
+transform:translateX(10000px) translateY(-10000px)
+}
