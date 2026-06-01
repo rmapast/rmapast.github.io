@@ -1,0 +1,57 @@
+@font-face {
+  src: url(./Minecraft.ttf);
+  font-family: Minecraft;
+}
+
+body {
+    background-color: #808a8b;
+    background-repeat: repeat;
+    background-image: url('../Minecraftbestenergy/Minecraftbestenergyimages/uranium_ore.png');
+    font-family: serif;
+    font-size: 35px;
+    color: #2b2b2b;
+}
+
+.informationCard {
+    margin: 40px 40px 40px 40px;
+    padding: 20px;
+    background-color: #e6eff4;
+    float: left;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #111111;
+    font-size: 24px;
+    font-family: sans-serif;
+
+}
+
+.topsection {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100px;
+    background-color: #555555;
+    width: 100%;
+    /*background-image: url('../Minecraftbestenergy/Minecraftbestenergyimages/turbine_casing.png');*/
+    background-size: 100px;
+        border-style: solid;
+    border-width: medium;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.topsectionlogo {
+    float: left;
+}
+
+.TextInTopsection {
+    float: left;
+    margin-left: 30px;
+    font-family: Minecraft;
+}
+
+.Navigationlink {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-size: 48px;
+}
