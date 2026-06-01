@@ -26,6 +26,15 @@ body {
 
 }
 
+  .topsectiongrid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 700px;
+    grid-template-areas: 
+      'hd nv nv nv nv nv nv'
+    ;
+  }
+
 .topsection {
     position: fixed;
     left: 0px;
@@ -40,13 +49,12 @@ body {
 }
 
 .topsectionlogo {
-    float: left;
+    grid-area: hd;
 }
 
 .TextInTopsection {
-    float: left;
-    margin-left: 30px;
     font-family: Minecraft;
+    grid-area: nv;
 }
 
 .Navigationlink {
